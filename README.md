@@ -76,6 +76,17 @@ Black Box Testing is also known as *Behavioral Testing*.
 - *Decision Table Testing*: A decision table puts causes and their effects in a matrix.
   There is a unique combination in each column.
 
+**Black Box Testing and Software Development Life Cycle(SDLC)**
+
+Black Box Testing has its own life cycle called Software Testing Life Cycle (STLC), and
+it's relative to every stage of SDLC of Software Engineering.
+
+1. Requirement: SDLC initial stage where requirements are gathered. Testers take part here.
+2. Test Planning & Analysis: Testing Types applicable to the project are determined. A Test
+   Plan is created in which possible risks and their mitigations are determined.
+3. Design: Test cases/scripts are created based on requirement documents.
+4. Testing Execution: Test Cases are executed. Bugs if any are fixed and re-tested.
+
 **[⬆ Back to Index](#index)**
 
 
