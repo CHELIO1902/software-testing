@@ -5,13 +5,13 @@ perspective, tips, techniques, strategies to do software testing, and so on.
 
 This will definitely improve your software's quality.
 
-## Index
+### Index
 -   [Intro](#intro)
--   [Black Box Testing](#black-box)
--   [White Box Testing](#white-box)
+-   [Black Box Testing](#Black-Box-Testing)
+-   [White Box Testing](#White-Box-Testing)
 
 
-### --- Intro ---
+## Intro
 
 The main reason why many users quit from using a certain software, it's because its
 performance is slow, buggy, does not work on certain devices, and so on.
@@ -24,7 +24,7 @@ But first, let's talk about Black Box Testing and White Box Testing.
 **[⬆ Back to Index](#index)**
 
 
-### --- Black Box Testing ---
+## Black Box Testing
 
 Black Box Testing is a method in which the functionalities are tested without knowing
 what the internal code structure, implementation details & internal paths are.
@@ -79,8 +79,87 @@ Black Box Testing is also known as *Behavioral Testing*.
 **[⬆ Back to Index](#index)**
 
 
-### --- White Box Testing ---
+## White Box Testing
+
+White Box Testing is a method in which internal structure, design and coding of software 
+are tested to verify flow of input-output and to improve design, usability and security.
+
+In White Box Testing, code is visible to testers so it is also called "Clear box testing",
+"Open box testing", "Transparent box testing", "Code-based testing" and "Glass box testing".
+
+This is one of two parts of the Box Testing approach to software testing. Its counterpart
+Black Box Texting, involves testing from an external or end-user-type perspective.
+
+On the other hand, White Box Testing in software engineering is based on the inner workings
+of an application and revolves around internal testing.
+
+"White Box" name symbolizes the ability to see through the software's outter shell (or "box").
+While "Black Box" symbolizes not being able to see the inner structures, so that only the
+end-user experience can be tested.
+
+**What do you verify in White Box Testing?**
+-  Internal security holes.
+-  Broken or poorly structured paths in the coding processes.
+-  The flow of specific inputs through the code.
+-  Expected output.
+-  The functionality of conditional loops.
+-  Testing of each statement, object, and function on an individual basis.
+
+White Box Testing can be done at system, integration and unit levels of software development. One of
+the basic goals of White Box Testing is to veirfy a working flow for an app. 
+
+It involves testing a series of predefined inputs against expected or desired outputs,
+so that when a specific input does not result in the expected output, you have found a bug.
+
+**Types of White Box Testing**
+
+-  Unit Testing: It is often the first type of testing done on an app. Unit Testing is
+   performed on each unit or block of code as it is developed. It is used done by the programmer.
+   As a software developer, you develop a few lines of code, a single function or an object and test
+   it to make sure it works before continuing Unit Testing helps identify a majority of bugs, early
+   in the software development lifecycle. Bugs identified in this stage are cheaper and easy to fix.
+
+-  Testing for Memory Leaks: Memory leaks are leading causes of slower running applications. A QA
+   specialist who is experienced at detecting memory leaks is essential in cases where you have a
+   slow running software application.
+
+**Types of White Box and Black Box Testing (shared types of testing)**
+
+-  White Box Penetration Testing: In this testing, the tester/developer has full information of the
+   application’s source code, detailed network information, IP addresses involved and all server information
+   the application runs on.  The aim is to attack the code from several angles to expose security threats.
+
+-  White Box Mutation Testing: Mutation testing is often used to discover the best coding techniques 
+   to use for expanding a software solution.
 
 
+**White Box Testing Tools**
+
+- Parasoft Jtest
+- EclEmma
+- NUnit
+- PyUnit
+- HTMLUnit
+- CppUnit
+
+
+**Advantages of White Box Testing**
+-  Code optimization by finding hidden errors.
+-  White box tests cases can be easily automated.
+-  Testing is more thorough as all code paths are usually covered.
+-  Testing can start early in Software Development Life-Cycle (SDLC) even if the
+   Graphic User Interface (GUI) is not available.
+
+
+**Disadvantages of WhiteBox Testing**
+-  It can be quite complex, time-consuming and expensive (depending on the App).
+-  If the white box testing by developers is not detailed, it can lead to production errors.
+-  It requires professional resources and a detailed understanding of programming and implementation.
+
+**Ending Notes**
+-  White Box Testing can be quite complet depending on the app being tested. It could take from a couple
+   days, to weeks in order to be fully tested.
+-  It should be done on a software app as it is being developed after it is written & again after each
+   modification.
 
 **[⬆ Back to Index](#index)**
