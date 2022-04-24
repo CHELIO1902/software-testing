@@ -1,7 +1,7 @@
 # Software Testing Fundamentals
 
 Here you will find fundamentals of modern testing, testing from tester's and developer's
-perspective, tips, techniques, strategies to do software testing, and so on.
+perspective, tips, techniques, strategies to do software testing, and more :]
 
 This will definitely improve your software's quality.
 
