@@ -63,7 +63,7 @@ Black Box Testing is also known as *Behavioral Testing*.
 
 **Black Box Testing Tools**
 
-. For Functional|Regression Testing: QTP, Selenium.
+- Fo Functional|Regression Testing: QTP, Selenium.
 - For Non-functional Testing: LoadRUnner, Jmeter.
 
 
