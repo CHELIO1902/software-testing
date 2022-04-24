@@ -158,7 +158,7 @@ so that when a specific input does not result in the expected output, you have f
 -  Code optimization by finding hidden errors.
 -  White box tests cases can be easily automated.
 -  Testing is more thorough as all code paths are usually covered.
--  Testing can start early in Software Development Life-Cycle (SDLC) even if the
+-  Testing can start early in Software Development Life Cycle (SDLC) even if the
    Graphic User Interface (GUI) is not available.
 
 
