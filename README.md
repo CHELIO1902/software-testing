@@ -9,6 +9,7 @@ This will definitely improve your software's quality.
 -   [Intro](#intro)
 -   [Black Box Testing](#Black-Box-Testing)
 -   [White Box Testing](#White-Box-Testing)
+-   [Black Box Testing vs White Box Testing](#Black-Box-Testing-vs-White-Box-Testing)
 
 
 ## Intro
@@ -174,5 +175,183 @@ so that when a specific input does not result in the expected output, you have f
    days, to weeks in order to be fully tested.
 -  It should be done on a software app as it is being developed after it is written & again after each
    modification.
+
+## Black Box Testing vs White Box Testing
+
+*in case you didn't read the topics above, here's a summary of BBT & WBT*
+
+**What is Black Box Testing?**
+
+In Black-box testing, a tester doesn’t have any information about the internal working of the software system.
+Black box testing is a high level of testing that focuses on the behavior of the software. It involves testing 
+from an external or end-user perspective. Black box testing can be applied to virtually every level of 
+software testing: unit, integration, system, and acceptance.
+
+**What is White Box Testing?**
+
+White-box testing is a testing technique which checks the internal functioning of the system. In this method,
+testing is based on coverage of code statements, branches, paths or conditions. White-Box testing is considered
+as low-level testing. It is also called glass box, transparent box, clear box or code base testing. 
+The white-box Testing method assumes that the path of the logic in a unit or program is known.
+
+**Black Box Testing and White Box Testing Differences**
+
+<table>
+  <thead>
+    <tr>
+      <th></th>
+      <th>Black Box Testing</th>
+      <th>White Box Testing</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>
+        <strong>Definition</strong>
+      </td>
+      <td>It is a testing approach which is used to test the software without the knowledge of the internal structure of program or application.</td>
+      <td>It is a testing approach in which internal structure is known to the tester.</td>
+    </tr>
+    <tr>
+      <td>
+        <strong>Alias</strong>
+      </td>
+      <td>It also knowns as data-driven, box testing, data-, and functional testing.</td>
+      <td>It is also called structural testing, clear box testing, code-based testing, or glass box testing.</td>
+    </tr>
+    <tr>
+      <td>
+        <strong>Base of Testing</strong>
+      </td>
+      <td>Testing is based on external expectations; internal behavior of the application is unknown.</td>
+      <td>Internal working is known, and the tester can test accordingly.</td>
+    </tr>
+    <tr>
+      <td>
+        <strong>Usage</strong>
+      </td>
+      <td>This type of testing is ideal for higher levels of testing like System Testing, Acceptance testing.</td>
+      <td>Testing is best suited for a lower level of testing like Unit Testing, Integration testing.</td>
+    </tr>
+    <tr>
+      <td>
+        <strong>Programming knowledge</strong>
+      </td>
+      <td>Programming knowledge is not needed to perform Black Box testing.</td>
+      <td>Programming knowledge is required to perform White Box testing.</td>
+    </tr>
+    <tr>
+      <td>
+        <strong>Implementation knowledge</strong>
+      </td>
+      <td>Implementation knowledge is not requiring doing Black Box testing.</td>
+      <td>Complete understanding needs to implement WhiteBox testing.</td>
+    </tr>
+    <tr>
+      <td>
+        <strong>Automation</strong>
+      </td>
+      <td>Test and programmer are dependent on each other, so it is tough to automate.</td>
+      <td>White Box testing is easy to automate.</td>
+    </tr>
+    <tr>
+      <td>
+        <strong>Objective</strong>
+      </td>
+      <td>The main objective of this testing is to check what functionality of the system under test.</td>
+      <td>The main objective of White Box testing is done to check the quality of the code.</td>
+    </tr>
+    <tr>
+      <td>
+        <strong>Basis for test cases</strong>
+      </td>
+      <td>Testing can start after preparing requirement specification document.</td>
+      <td>Testing can start after preparing for Detail design document.</td>
+    </tr>
+    <tr>
+      <td>
+        <strong>Tested by</strong>
+      </td>
+      <td>Performed by the end user, developer, and tester.</td>
+      <td>Usually done by tester and developers.</td>
+    </tr>
+    <tr>
+      <td>
+        <strong>Granularity</strong>
+      </td>
+      <td>Granularity is low.</td>
+      <td>Granularity is high.</td>
+    </tr>
+    <tr>
+      <td>
+        <strong>Testing method</strong>
+      </td>
+      <td>It is based on trial and error method.</td>
+      <td>Data domain and internal boundaries can be tested.</td>
+    </tr>
+    <tr>
+      <td>
+        <strong>Time </strong>
+      </td>
+      <td>It is less exhaustive and time-consuming.</td>
+      <td>Exhaustive and time-consuming method.</td>
+    </tr>
+    <tr>
+      <td>
+        <strong>Algorithm test</strong>
+      </td>
+      <td>Not the best method for algorithm testing.</td>
+      <td>Best suited for algorithm testing.</td>
+    </tr>
+    <tr>
+      <td>
+        <strong>Code Access</strong>
+      </td>
+      <td>Code access is not required for Black Box Testing.</td>
+      <td>White box testing requires code access. Thereby, the code could be stolen if testing is outsourced.</td>
+    </tr>
+    <tr>
+      <td>
+        <strong>Benefit</strong>
+      </td>
+      <td>Well suited and efficient for large code segments.</td>
+      <td>It allows removing the extra lines of code, which can bring in hidden defects.</td>
+    </tr>
+    <tr>
+      <td>
+        <strong>Skill level</strong>
+      </td>
+      <td>Low skilled testers can test the application with no knowledge of the implementation of programming language or operating system.</td>
+      <td>Need an expert tester with vast experience to perform white box testing.</td>
+    </tr>
+    <tr>
+      <td>
+        <strong>Techniques</strong>
+      </td>
+      <td>
+        <p>Equivalence partitioning is Black box testing technique is used for Blackbox testing.</p>
+        <p>Equivalence partitioning divides input values into valid and invalid partitions and selecting corresponding values from each partition of the test data.
+         </p>
+        <p>Boundary value analysis</p>
+        <p>checks boundaries for input values.</p>
+      </td>
+      <td>
+        <p>Statement Coverage, Branch coverage, and Path coverage are White Box testing technique.</p>
+        <p>Statement Coverage validates whether every line of the code is executed at least once.</p>
+        <p>Branch coverage validates whether each branch is executed at least once</p>
+        <p>Path coverage method tests all the paths of the program.</p>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <strong>Drawbacks</strong>
+      </td>
+      <td>Update to automation test script is essential if you to modify application frequently.</td>
+      <td>Automated test cases can become useless if the code base is rapidly changing.</td>
+    </tr>
+  </tbody>
+</table>
+
+
 
 **[⬆ Back to Index](#index)**
