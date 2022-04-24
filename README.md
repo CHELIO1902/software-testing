@@ -104,6 +104,8 @@ Black Box Texting, involves testing from an external or end-user-type perspectiv
 On the other hand, White Box Testing in software engineering is based on the inner workings
 of an application and revolves around internal testing.
 
+![assets/blackbox.webp](assets/whitebox.webp)
+
 "White Box" name symbolizes the ability to see through the software's outter shell (or "box").
 While "Black Box" symbolizes not being able to see the inner structures, so that only the
 end-user experience can be tested.
