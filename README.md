@@ -573,6 +573,360 @@ unknown or final release date is not given.
 
 ## Software Testing Life Cycle
 
+Software Testing Life Cycle (STLC) is a sequence of specific activities conducted during the testing process to
+ensure software quality goals are met. STLC involves both verification and validation activities. Contrary to popular
+belief, Software Testing is not just a single/isolate activity. It consists of a series of activities carried out
+methodologically to help certify your software product.
+
+**STLC Phases**
+
+There are six major phases in every Software Testing Life Cycle Model (STLC Model):
+
+1. Requirement Analysis.
+2. Test Planning.
+3. Test case development.
+4. Test Environment setup.
+5. Test Execution.
+6. Test Cycle closure.
+
+![assets/blackbox.webp](assets/stlc.webp)
+
+Each of these stages have a defined Entry and Exit criteria, Activities & Deliverables associated with it.
+
+**What is Entry and Exit Criteria in STLC?**
+
+**-   Entry Criteria:** Entry Criteria gives the prerequisite items that must be completed before testing can begin.
+
+**-   Exit Criteria:** Exit Criteria defines the items that must be completed before testing can be concluded.
+
+*You have Entry and Exit Criteria for all levels in the STLC.*
+
+In an ideal world, you will not enter the next stage until the exit criteria for the previous stage is met. But 
+practically, this is not always possible.
+
+**Requirement Phase Testing**
+
+Requirement Phase Testing also known as Requirement Analysis is the proccess in which the team studies the
+requirements from a testing point of view to identify testable requirements and the QA team may interact with
+various stakeholders to understand requirements in detail. Requirements could be either functional or non-functional. 
+Automation feasibility for the testing project is also done in this stage.
+
+Activities in Requirement Phase Testing:
+-  Identify types of tests to be performed.
+-  Gather details about testing priorities and focus.
+-  Prepare Requirement Traceability Matrix (RTM).
+-  Identify test environment details where testing is supposed to be carried out.
+-  Automation feasibility analysis (if required).
+  
+Deliverables of Requirement Phase Testing:
+-  RTM
+-  Automation feasibility report. (if applicable)
+
+**Test Planning in STLC**
+
+Test Planning in STLC is a phase in which a Senior QA manager determines the test plan strategy along with efforts
+and cost estimates for the project. Moreover, the resources, test environment, test limitations and the testing
+schedule are also determined. The Test Plan gets prepared and finalized in the same phase.
+
+Test Planning Activities:
+-  Preparation of test plan/strategy document for various types of testing.
+-  Test tool selection.
+-  Test effort estimation.
+-  Resource planning and determining roles and responsibilities.
+-  Training requirement.
+
+Deliverables of Test Planning:
+-  Test plan /strategy document.
+-  Effort estimation document.
+
+**Test Case Development Phase**
+
+The Test Case Development Phase involves the creation, verification and rework of test cases & test scripts after
+the test plan is ready. Initially, the Test data is identified then created and reviewed and then reworked based 
+on the preconditions. Then the QA team starts the development process of test cases for individual units.
+
+Test Case Development Activities:
+-  Create test cases, automation scripts (if applicable).
+-  Review and baseline test cases and scripts.
+-  Create test data (If Test Environment is available).
+
+Deliverables of Test Case Development
+-  Test cases/scripts.
+-  Test data.
+
+**Test Environment Setup**
+
+Test Environment Setup decides the software and hardware conditions under which a work product is tested. It's 
+one of the critical aspects of the testing process and can be done in parallel with the Test Case Development Phase.
+Test team may not be involved in this activity if the development team provides the test environment. The test team
+is required to do a readiness check (smoke testing) of the given environment.
+
+Test Environment Setup Activities:
+-  Understand the required architecture, environment setup and prepare hardware & software requirement list for 
+   the Test Environment.
+-  Setup test Environment and test data.
+-  Perform smoke test on the build.
+
+Deliverables of Test Environment Setup:
+-  Environment ready with test data setup.
+-  Smoke Test Results.
+
+**Test Execution Phase**
+
+Test Execution Phase is carried out by the testers in which testing of the software build is done based on test
+plans and test cases prepared. The process consists of test script execution, test script maintenance and bug 
+reporting. If bugs are reported then it is reverted back to development team for correction and 
+retesting will be performed.
+
+Test Execution Activities:
+-  Execute tests as per plan.
+-  Document test results, and log defects for failed cases.
+-  Map defects to test cases in RTM.
+-  Retest the Defect fixes.
+-  Track the defects to closure.
+
+Deliverables of Test Execution:
+-  Completed RTM with the execution status.
+-  Test cases updated with results.
+-  Defect reports.
+
+**Test Cycle Closure**
+
+Test Cycle Closure phase is completion of test execution which involves several activities like test completion
+reporting, collection of test completion matrices and test results. Testing team members meet, discuss and analyze
+testing artifacts to identify strategies that have to be implemented in future, taking lessons from current test 
+cycle. The idea is to remove process bottlenecks for future test cycles.
+
+Test Cycle Closure Activities:
+-  Evaluate cycle completion criteria based on Time, Test coverage, Cost, Software, Critical Business Objectives, Quality.
+-  Prepare test metrics based on the above parameters.
+-  Document the learning out of the project.
+-  Prepare Test closure report.
+-  Qualitative and quantitative reporting of quality of the work product to the customer.
+-  Test result analysis to find out the defect distribution by type and severity.
+
+Deliverables of Test Cycle Closure:
+-  Test Closure report.
+-  Test metrics.
+
+
+**STLC Phases along with Entry and Exit Criteria**
+
+<table>
+  <thead>
+    <tr>
+      <th>
+        STLC Stage</th>
+      <th>
+        Entry Criteria</th>
+      <th>
+        Activity</th>
+      <th>
+        Exit Criteria</th>
+      <th>
+        Deliverables</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>
+        Requirement Analysis</td>
+      <td>
+        <ul>
+          <li>Requirements Document available (both functional and non functional)</li>
+          <li>Acceptance criteria defined.</li>
+          <li>Application architectural document available.</li>
+        </ul>
+      </td>
+      <td>
+        <ul>
+          <li>Analyse business functionality to know the business modules and module specific functionalities.</li>
+          <li>Identify all transactions in the modules.</li>
+          <li>Identify all the user profiles.</li>
+          <li>Gather user interface/ authentication, geographic spread requirements.</li>
+          <li>Identify types of tests to be performed.</li>
+          <li>Gather details about testing priorities and focus.</li>
+          <li>Prepare Requirement Traceability Matrix (RTM).</li>
+          <li>Identify test environment details where testing is supposed to be carried out.</li>
+          <li>Automation feasibility analysis (if required).</li>
+        </ul>
+      </td>
+      <td>
+        <ul>
+          <li>Signed off RTM</li>
+          <li>Test automation feasibility report signed off by the client</li>
+        </ul>
+      </td>
+      <td>
+        <ul>
+          <li>RTM</li>
+          <li>Automation feasibility report (if applicable)</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td> Test Planning</td>
+      <td>
+        <ul>
+          <li>Requirements Documents</li>
+          <li>Requirement Traceability matrix.</li>
+          <li>Test automation feasibility document.</li>
+        </ul>
+      </td>
+      <td>
+        <ul>
+          <li>Analyze various testing approaches available</li>
+          <li>Finalize on the best-suited approach</li>
+          <li>Preparation of test plan/strategy document for various types of testing</li>
+          <li>Test tool selection</li>
+          <li>Test effort estimation</li>
+          <li>Resource planning and determining roles and responsibilities.</li>
+        </ul>
+      </td>
+      <td>
+        <ul>
+          <li>Approved test plan/strategy document.</li>
+          <li>Effort estimation document signed off.</li>
+        </ul>
+      </td>
+      <td>
+        <ul>
+          <li>Test plan/strategy document.</li>
+          <li>Effort estimation document.</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td> Test case development</td>
+      <td>
+        <ul>
+          <li>Requirements Documents</li>
+          <li>RTM and test plan</li>
+          <li>Automation analysis report</li>
+        </ul>
+      </td>
+      <td>
+        <ul>
+          <li>Create test cases, test design, automation scripts (where applicable)</li>
+          <li>Review and baseline test cases and scripts</li>
+          <li>Create test data</li>
+        </ul>
+      </td>
+      <td>
+        <ul>
+          <li>Reviewed and signed test Cases/scripts</li>
+          <li>Reviewed and signed test data</li>
+        </ul>
+      </td>
+      <td>
+        <ul>
+          <li>Test cases/scripts</li>
+          <li>Test data</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td> Test Environment setup</td>
+      <td>
+        <ul>
+          <li>System Design and architecture documents are available</li>
+          <li>Environment set-up plan is available</li>
+        </ul>
+      </td>
+      <td>
+        <ul>
+          <li>Understand the required architecture, environment set-up</li>
+          <li>Prepare hardware and software development requirement list</li>
+          <li>Finalize connectivity requirements</li>
+          <li>Prepare environment setup checklist</li>
+          <li>Setup test Environment and test data</li>
+          <li>Perform smoke test on the build</li>
+          <li>Accept/reject the build depending on smoke test result</li>
+        </ul>
+      </td>
+      <td>
+        <ul>
+          <li>Environment setup is working as per the plan and checklist</li>
+          <li>Test data setup is complete</li>
+          <li>Smoke test is successful</li>
+        </ul>
+      </td>
+      <td>
+        <ul>
+          <li>Environment ready with test data set up</li>
+          <li>Smoke Test Results.</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td> Test Execution</td>
+      <td>
+        <ul>
+          <li>Baselined RTM, Test Plan, Test case/scripts are available</li>
+          <li>Test environment is ready</li>
+          <li>Test data set up is done</li>
+          <li>Unit/Integration test report for the build to be tested is available</li>
+        </ul>
+      </td>
+      <td>
+        <ul>
+          <li>Execute tests as per plan</li>
+          <li>Document test results, and log defects for failed cases</li>
+          <li>Update test plans/test cases, if necessary</li>
+          <li>Map defects to test cases in RTM</li>
+          <li>Retest the defect fixes</li>
+          <li>Regression Testing of application</li>
+          <li>Track the defects to closure</li>
+        </ul>
+      </td>
+      <td>
+        <ul>
+          <li>All tests planned are executed</li>
+          <li>Defects logged and tracked to closure</li>
+        </ul>
+      </td>
+      <td>
+        <ul>
+          <li>Completed RTM with execution status</li>
+          <li>Test cases updated with results</li>
+          <li>Defect reports</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        Test Cycle closure</td>
+      <td>
+        <ul>
+          <li>Testing has been completed</li>
+          <li>Test results are available</li>
+          <li>Defect logs are available</li>
+        </ul>
+      </td>
+      <td>
+        <ul>
+          <li>Evaluate cycle completion criteria based on &#8211; Time, Test coverage, Cost, Software Quality, Critical Business Objectives</li>
+          <li>Prepare test metrics based on the above parameters.</li>
+          <li>Document the learning out of the project</li>
+          <li>Prepare Test closure report</li>
+          <li>Qualitative and quantitative reporting of quality of the work product to the customer.</li>
+          <li>Test result analysis to find out the defect distribution by type and severity</li>
+        </ul>
+      </td>
+      <td>
+        <ul>
+          <li>Test Closure report signed off by client</li>
+        </ul>
+      </td>
+      <td>
+        <ul>
+          <li>Test Closure report</li>
+          <li>Test metrics</li>
+        </ul>
+      </td>
+    </tr>
+  </tbody>
+</table>
 
 
 **[⬆ Back to Index](#index)**
