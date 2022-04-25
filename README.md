@@ -477,7 +477,7 @@ The main focus of this SDLC phase is to ensure that the software meets the produ
 the system performs as per the requirements mentioned in the first phase.
 
 
-***Popular SDLC Models***
+**--- Popular SDLC Models ---**
 
 Here, are some of the most important models of SDLC:
 
@@ -513,13 +513,14 @@ process of any project. In the Agile method, the entire project is divided into 
 All of these builds are provided in iterations, and each iteration lasts from one to three weeks.
 
 **Spiral Model:**
+
 The spiral model is a risk-driven process model. This SDLC testing model helps the team to adopt elements of 
 one or more process models like a waterfall, incremental, waterfall, etc.
 
 This model adopts the best features of the prototyping model and the waterfall model. The spiral methodology
 is a combination of rapid prototyping and concurrency in design and development activities.
 
-**Big bang model**
+**Big bang model:**
 
 Big bang model is focusing on all types of resources in software development and coding, with no or very 
 little planning. The requirements are understood and implemented when they come.
@@ -568,5 +569,10 @@ unknown or final release date is not given.
 -  Waterfall, Incremental, Agile, V model, Spiral, Big Bang are some of the popular SDLC models.
 
 -  SDLC in testing consists of a detailed guide that explains how to plan, build, and maintain specific software.
+
+
+## Software Testing Life Cycle
+
+
 
 **[⬆ Back to Index](#index)**
