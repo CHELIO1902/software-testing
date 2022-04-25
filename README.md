@@ -10,6 +10,8 @@ This will definitely improve your software's quality.
 -   [Black Box Testing](#Black-Box-Testing)
 -   [White Box Testing](#White-Box-Testing)
 -   [Black Box Testing vs White Box Testing](#Black-Box-Testing-vs-White-Box-Testing)
+-   [Software Development Life Cycle](#Software-Development-Life-Cycle)
+-   [Software Testing Life Cycle](#Software-Testing-Life-Cycle)
 
 
 ## Intro
@@ -353,5 +355,218 @@ The white-box Testing method assumes that the path of the logic in a unit or pro
 </table>
 
 
+## Software Development Life Cycle
+
+SDCL is a systematic process for software development. It ensures the high quality and correcteness of
+the software built, for it to meet the customer expectations. The system development should be complete
+in the pre-defined timeframe and cost.
+
+It consists of a detailed plan which explains how to plan, build, and maintain specific software. Every phase 
+of the SDLC life Cycle has its own process and deliverables that feed into the next phase. Software Development
+Life Cycle and is also referred to as the Application Development life-cycle. 
+
+**Why SDLC?**
+
+-  It offers a basis for project planning, scheduling, and estimating.
+-  Provides a framework for a standard set of activities and deliverables.
+-  It is a mechanism for project tracking and control.
+-  Increases visibility of project planning to all involved stakeholders of the development process.
+-  Increased and enhanced development speed.
+-  Improved client relations.
+-  Helps you to decrease project risk.
+-  Project management can plan overhead.
+
+**SDLC Phases**
+
+The entire SDLC proces divided into the following steps:
+
+![assets/blackbox.webp](assets/sdlc.webp)
+
+-  Phase 1: Requirement collection and analysis
+-  Phase 2: Feasibility study
+-  Phase 3: Design
+-  Phase 4: Coding
+-  Phase 5: Testing
+-  Phase 6: Installation/Deployment
+-  Phase 7: Maintenance
+
+**Phase 1: Requirement collection and analysis**
+
+This stage is conducted by the senior team members with inputs from all the stakeholders and domain experts in 
+the industry. Planning for the quality assurance requirements and recognization of the risks involved 
+is also done at this stage.
+
+It gives a clearer picture of the entire project scope and the anticipated issues, opportunities, and directives
+which triggered the project. This stage needs the team to get detailed and precise requirements. This helps 
+companies to do an estimation on how the project timeline is going to be like.
+
+**Phase 2: Feasibility study**
+
+The next phase is to define and document software needs. This process is conducted with the help of the 
+‘Software Requirement Specification’ document also known as ‘SRS’ document. It includes what should be designed 
+and developed during the project life cycle.
+
+There are mainly five types of feasibilities checks:
+
+-  Economic: Can we complete the project within the budget or not?
+-  Legal: Can we handle this project as cyber law and other regulatory framework/compliances.
+-  Operation feasibility: Can we create operations expected by the client?
+-  Technical: Check if the current computer system can support the software.
+-  Schedule: Decide if the project can be completed within the given schedule or not.
+
+**Phase 3: Design**
+
+In this third phase, the system and software design documents are prepared as per the requirement 
+specification document. This helps define overall system architecture.
+
+This design phase serves as input for the next phase of the model.
+
+There are two kinds of design documents developed in this phase:
+
+High-Level Design (HLD):
+
+-  Brief description and name of each module
+-  An outline about the functionality of every module
+-  Interface relationship and dependencies between modules
+-  Database tables identified along with their key elements
+-  Complete architecture diagrams along with technology details
+
+Low-Level Design (LLD):
+
+-  Functional logic of the modules
+-  Database tables, which include type and size
+-  Complete detail of the interface
+-  Addresses all types of dependency issues
+-  Listing of error messages
+-  Complete input and outputs for every module
+
+**Phase 4: Coding**
+
+Once the system design phase is over, the next phase is coding. In this phase, developers start to build
+the entire system by writing code using the chosen programming language. In the coding phase, tasks are 
+divided into units or modules and assigned to the various developers. It's the longest phase of the SDLC process.
+
+In this phase, Developer need to follow certain predefined coding guidelines. They also need to use programming 
+tools like compiler, interpreters, debugger to generate and implement the code.
+
+**Phase 5: Testing**
+
+Once the software is complete, and it is deployed in the testing environment. The testing team starts testing
+the functionality of the entire system. This is done to verify that the entire application works according 
+to the customer requirement.
+
+During this phase, QA and testing team may find some bugs/defects which they communicate to developers. The 
+development team fixes the bug and send back to QA for a re-test. This process continues until the software 
+is bug-free, stable, and working according to the business needs of that system.
+
+**Phase 6: Installation/Deployment**
+
+Once the software testing phase is over and no bugs or errors leftin the system then the final deployment 
+process starts. Based on the feedback given by the project manager, the final software is released and 
+checked for deployment issues if any.
+
+**Phase 7: Maintenance**
+
+Once the system is deployed, and customers start using the developed system, following 3 activities occur:
+
+-  Bug fixing: bugs are reported because of some scenarios which are not tested at all
+-  Upgrade: Upgrading the application to the newer versions of the Software
+-  Enhancement: Adding some new features into the existing software
+
+The main focus of this SDLC phase is to ensure that the software meets the product needs and 
+the system performs as per the requirements mentioned in the first phase.
+
+
+***Popular SDLC Models***
+
+Here, are some of the most important models of SDLC:
+
+**Waterfall model in SDLC:**
+
+The waterfall is a widely accepted SDLC model. In this approach, the whole process of the software 
+development is divided into various phases of SDLC. In this SDLC model, the outcome of one phase
+acts as the input for the next phase.
+
+This SDLC model is documentation-intensive, with earlier phases documenting what need be performed 
+in the subsequent phases.
+
+**Incremental Model in SDLC:**
+
+The incremental model is not a separate model. It is essentially a series of waterfall cycles. 
+The requirements are divided into groups at the start of the project. For each group, the SDLC model 
+is followed to develop software. 
+
+The SDLC life cycle process is repeated, with each release adding more functionality until all requirements
+are met. In this method, every cycle act as the maintenance phase for the previous software release. 
+Modification to the incremental model allows development cycles to overlap. After that subsequent cycle may 
+begin before the previous cycle is complete.
+
+**V-Model in SDLC:**
+
+In this type of SDLC model, testing and development are planned in parallel. So, there are verification 
+phases of the SDLC on the side and the validation phase on the other side. V-Model joins in the coding phase.
+
+**Agile Model in SDLC:**
+
+Agile methodology is a practice which promotes continue interaction of development and testing during the SDLC 
+process of any project. In the Agile method, the entire project is divided into small incremental builds. 
+All of these builds are provided in iterations, and each iteration lasts from one to three weeks.
+
+**Spiral Model:**
+The spiral model is a risk-driven process model. This SDLC testing model helps the team to adopt elements of 
+one or more process models like a waterfall, incremental, waterfall, etc.
+
+This model adopts the best features of the prototyping model and the waterfall model. The spiral methodology
+is a combination of rapid prototyping and concurrency in design and development activities.
+
+**Big bang model**
+
+Big bang model is focusing on all types of resources in software development and coding, with no or very 
+little planning. The requirements are understood and implemented when they come.
+
+This model works best for small projects with smaller size development team which are working together. It's 
+also useful for academic software development projects. It is an ideal model where requirements is either 
+unknown or final release date is not given.
+
+
+**SDLC Summary**
+
+-  The Software Development Life Cycle (SDLC) is a systematic process for building software that ensures the 
+   quality and correctness of the software built.
+   
+-  The full form SDLC is Software Development Life Cycle or Systems Development Life Cycle.
+
+-  SDLC in software engineering provides a framework for a standard set of activities and deliverables.
+
+-  Seven different SDLC stages are: 
+      1) Requirement collection and analysis
+      2) Feasibility study: 
+      3) Design
+      4) Coding
+      5) Testing
+      6) Installation/Deployment
+      7) Maintenance
+
+-  The senior team members conduct the requirement analysis phase.
+
+-  Feasibility Study stage includes everything which should be designed and developed during the project life cycle.
+
+-  In the Design phase, the system and software design documents are prepared as per the requirement 
+   specification document.
+
+-  In the coding phase, developers start build the entire system by writing code using the chosen
+   programming language.
+   
+-  Testing is the next phase which is conducted to verify that the entire application works according
+   to the customer requirement.
+
+-  Installation and deployment face begins when the software testing phase is over, and no bugs or errors
+   left in the system
+
+-  Bug fixing, upgrade, and engagement actions covered in the maintenance phase.
+
+-  Waterfall, Incremental, Agile, V model, Spiral, Big Bang are some of the popular SDLC models.
+
+-  SDLC in testing consists of a detailed guide that explains how to plan, build, and maintain specific software.
 
 **[⬆ Back to Index](#index)**
